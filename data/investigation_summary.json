@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-10-27T07:40:44Z",
+  "network": "Solana Mainnet",
+  "dry_run": true,
+  "spend_cap_sol": 0.05,
+  "actual_fee_spent_sol": 0.0,
+  "slots_analyzed": 6,
+  "findings": [
+    {
+      "slot": 461989323,
+      "block_time": 1793086835,
+      "total_transactions": 258,
+      "analysis": {
+        "sample_size": 258,
+        "ordering_rule": "HYBRID_FEE_CONGESTION_SCHEDULER",
+        "spearman_fee_correlation": 0.347,
+        "total_jito_transactions": 12,
+        "jito_early_concentration_pct": 8.33,
+        "avg_early_priority_fee": 421680.24,
+        "avg_late_priority_fee": 8108.96,
+        "confidence_score": 0.65
+      },
+      "raw_file": "block_461989323_ordering.json"
+    },
+    {
+      "slot": 461989328,
+      "block_time": 1793086836,
+      "total_transactions": 74,
+      "analysis": {
+        "sample_size": 74,
+        "ordering_rule": "HYBRID_FEE_CONGESTION_SCHEDULER",
+        "spearman_fee_correlation": 0.6471,
+        "total_jito_transactions": 3,
+        "jito_early_concentration_pct": 0.0,
+        "avg_early_priority_fee": 1836.43,
+        "avg_late_priority_fee": 23200.0,
+        "confidence_score": 0.65
+      },
+      "raw_file": "block_461989328_ordering.json"
+    },
+    {
+      "slot": 461989333,
+      "block_time": 1793086837,
+      "total_transactions": 229,
+      "analysis": {
+        "sample_size": 229,
+        "ordering_rule": "HYBRID_FEE_CONGESTION_SCHEDULER",
+        "spearman_fee_correlation": 0.3851,
+        "total_jito_transactions": 3,
+        "jito_early_concentration_pct": 0.0,
+        "avg_early_priority_fee": 114663.41,
+        "avg_late_priority_fee": 51433.91,
+        "confidence_score": 0.65
+      },
+      "raw_file": "block_461989333_ordering.json"
+    },
+    {
+      "slot": 461989338,
+      "block_time": 1793086838,
+      "total_transactions": 452,
+      "analysis": {
+        "sample_size": 452,
+        "ordering_rule": "HYBRID_FEE_CONGESTION_SCHEDULER",
+        "spearman_fee_correlation": 0.287,
+        "total_jito_transactions": 15,
+        "jito_early_concentration_pct": 20.0,
+        "avg_early_priority_fee": 361013.47,
+        "avg_late_priority_fee": 98618.53,
+        "confidence_score": 0.65
+      },
+      "raw_file": "block_461989338_ordering.json"
+    },
+    {
+      "slot": 461989343,
+      "block_time": 1793086839,
+      "total_transactions": 197,
+      "analysis": {
+        "sample_size": 197,
+        "ordering_rule": "HYBRID_FEE_CONGESTION_SCHEDULER",
+        "spearman_fee_correlation": 0.1937,
+        "total_jito_transactions": 0,
+        "jito_early_concentration_pct": 0.0,
+        "avg_early_priority_fee": 233510.68,
+        "avg_late_priority_fee": 421.11,
+        "confidence_score": 0.65
+      },
+      "raw_file": "block_461989343_ordering.json"
+    },
+    {
+      "slot": 461989348,
+      "block_time": 1793086840,
+      "total_transactions": 163,
+      "analysis": {
+        "sample_size": 163,
+        "ordering_rule": "HYBRID_FEE_CONGESTION_SCHEDULER",
+        "spearman_fee_correlation": 0.4715,
+        "total_jito_transactions": 6,
+        "jito_early_concentration_pct": 16.67,
+        "avg_early_priority_fee": 500063.12,
+        "avg_late_priority_fee": 30105.0,
+        "confidence_score": 0.65
+      },
+      "raw_file": "block_461989348_ordering.json"
+    }
+  ]
+}
